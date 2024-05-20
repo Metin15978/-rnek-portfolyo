@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-top {
+    height: 623.2px ;
+    width: 100% ;
+}
+
+.header-hero {
+    background-image: url(img/portfolyo.insan.png);
+    width: 100% ;
+    height: 100vh ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.header-hero-title {
+    display: flex;
+    justify-content: space-between;
+    width: 93% ;
+    margin: auto ;
+    padding-top: 50px ;
+}
+.header-animasyon-başlık-top a{
+    color: white;
+    text-decoration: none;
+}
+.header-hero-title img {
+    width: 30px ;
+    height: 30px ;
+}
+
+.header-hero-başlık ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-hero-başlık ul li {
+    margin-left: 25px ;
+    font-size: 13px ;
+    font-family: sans-serif;
+    color: #64ffd9;
+    font-weight: 600;
+}
+
+.header-hero-başlık ul span {
+    margin-left: 10px ;
+    font-size: 13px ;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.header-hero-slogan {
+    width: 65% ;
+    margin: auto ;
+    padding-top: 50px ;
+}
+
+.header-hero-slogan-top {
+    width: 200px;
+    margin-left: 3px;
+    border-bottom: 1px solid #e6f1ff;
+    font-family: sans-serif;
+    color: #e6f1ff;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header-hero-slogan-auto h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #e6f1ff;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 600;
+}
+
+.header-hero-slogan-bottom {
+    width: 830px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    color: rgba(230, 241, 255, 0.9);
+    font-size: 27px;
+    font-weight: 500;
+}
+.header-animasyon{
+    background-color: #0a192f;
+    padding: 150px 0 0 ;
+}
+.header-animasyon-başlık{
+    margin: 0 183px 0 183px ;
+    color: white;
+}
+.header-animasyon-h1 h1{
+    font-size: 100px ;
+    margin: 10px 0 25px ;
+    color: #e6f1ffe6;
+}
+.header-animasyon-p p{
+    font-size: 15px ;
+    color: #e6f1ffb3;
+    margin: 0 0 80px ;
+}
+.scroll-hero-content{
+    width: 100%;
+    height: 365px ;
+    position: relative ;
+    display: flex;
+    margin-bottom:100px ;
+}
+.scroll-hero-content-right{
+    width: 100%;
+    height: 360px ;
+    position: relative ;
+    margin-bottom:100px ;
+}
+.scroll-hero-1{
+    background-image:linear-gradient(180deg,rgba(23,42,69,0.6),rgba(23,42,69,0.6)),url(img/portfolyo.2.png);
+    width: 580px ;
+    height: 100% ;
+    background-size: cover;
+    background-position: center;
+}
+
+.scroll-hero-text{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    width: 54% ;
+    flex-direction: column;
+    align-items:flex-end;
+    margin-top: 80px ; 
+}
+.scroll-hero-text-right{
+    position: absolute;
+    left: 0px;
+    display: flex;
+    width: 54% ;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 80px ;
+}
+.scroll-title{
+    color: #64ffd9cc;
+    font-size: 14px ;
+    font-weight: 500 ;
+    font-family: sans-serif ;
+    margin-bottom: -5px ;
+}
+.scroll-altTitle{
+    font-size: 24px ;
+    color:#e6f1ffe6;
+    font-weight: 500 ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin: 0 0 5px ;
+}
+.scroll-text{
+    color: #a8b2d1;
+    font-size: 13px ;
+    font-family: sans-serif;
+    text-align:right;
+    width: 87% ;
+    line-height: 25px ;
+}
+.scroll-text-right{
+    color: #a8b2d1;
+    font-size: 13px ;
+    font-family: sans-serif;
+    width: 87% ;
+    line-height: 25px ;
+    margin-top: 15px ;
+}
+.scroll-text p{
+    margin:20px 0 ;
+}
+
+.scroll-hero-2{
+    background-image:linear-gradient(180deg,rgba(23,42,69,0.6),rgba(23,42,69,0.6)), url(img/portfolyo.3.png) ;
+    width: 580px ;
+    height: 360px ;
+    margin-bottom:100px ;
+    background-size: cover;
+    float: right ;
+    background-position: center;
+}
+.scroll-hero-3{
+    background-image:linear-gradient(180deg,rgba(23,42,69,0.6),rgba(23,42,69,0.6)), url(img/portfolyo.4.png) ;
+    width: 580px ;
+    background-size: cover; 
+    background-position: center;
+}
+.scroll-hero-4{
+    background-image:linear-gradient(180deg,rgba(23,42,69,0.6),rgba(23,42,69,0.6)), url(img/portfolyo.5.png) ;
+    width: 580px ;
+    height: 360px ;
+    margin-bottom:100px ;
+    background-size: cover;
+    float: right ;
+    background-position: center;
+}
+.scroll-hero-5{
+   background-image:linear-gradient(180deg,rgba(23,42,69,0.6),rgba(23,42,69,0.6)), url(img/portfolyo.6.png) ;
+    width: 580px ;
+    height: 360px ;
+    margin-bottom:100px ;
+    background-size: cover;
+    background-position: center;
+}
+.scroll-hero-6{
+    background-image:linear-gradient(180deg,rgba(23,42,69,0.6),rgba(23,42,69,0.6)), url(img/portfolyo.7.png) ;
+    width: 580px ;
+    height: 360px ;
+    background-size: cover;
+    float: right ;
+}
+.scrool-cv-title{
+    margin-left: 3px;
+    border-bottom: 1px solid #e6f1ff;
+    font-family: sans-serif;
+    color: #e6f1ff;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    width: 40% ;
+    
+}
+.scrool-cv h1{
+    margin-top: 10px   ;
+    margin-bottom: 60px ;
+    font-family:sans-serif;
+    color: #e6f1ff;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 600;
+}
+.scrool-cv-flex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(230, 241, 255, 0.15);
+    padding-bottom: 30px ;
+}
+.scrool-cv-flex-p{
+    color: #e6f1ff99;
+}
+.scrool-cv-flex-h5 h5{
+    color: #e6f1ffe6;
+    margin: 0 0 5px ;
+    font-size: 23px ;
+    font-family: sans-serif ;
+}
+.scrool-cv-flex-h5 p{
+    color: #64ffd9;
+    font-size: 14px ;
+}
+.scrool-bottom{
+    padding: 150px 0 30px ;
+}
+.scrool-bottom-1{
+    width: 200px;
+    color: rgba(230, 241, 255, 0.8);
+    font-size: 14px ;
+    margin:  0 0 0 3px ;
+    font-family: sans-serif;
+    border-bottom: 1px solid #e6f1ff ;
+    font-weight: 600;
+    line-height: 40px ;
+    letter-spacing: 2px ;
+}
+.scrool-bottom-2{
+    margin-top: 0px ;
+    margin-bottom: 20px ;
+    font-family: sans-serif;
+    color: #e6f1ffe6 ;
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 600;
+}
+.scrool-bottom-3{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: rgba(230, 241, 255, 0.7);
+    font-size: 15px;
+    line-height: 28px;
+    width: 62% ;
+    letter-spacing: 0.8px ;
+    padding-bottom: 35px ;
+}
+.scrool-bottom-4{
+    font-family:sans-serif;
+    color: rgba(100, 255, 217, 0.8);
+    font-size: 14px ;
+}
+/* RESPONSİVE----RESPONSİVE----RESPONSİVE----RESPONSİVE---- */
+
+/* !WİDTH 1000PX */
+@media only screen and (max-width:1000px){
+    .header-hero {
+        height:65vh ;
+    }
+    .header-hero-title img {
+        width: 15px ;
+        height: 15px ;
+    }
+    .header-hero-title {
+        padding-top: 30px ;
+    }
+    .header-hero-başlık ul li {
+        font-size: 10px ;
+    }    
+    .header-hero-başlık ul span {
+        margin-left: 8px ;
+        font-size: 10px ;
+    }
+    .header-hero-slogan {
+        width: 57%;
+        margin-top: 20px;
+    }
+    .header-hero-slogan-auto h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .header-hero-slogan-bottom {
+        width: 95% !important;
+        font-size: 12px;
+    }
+    /* PORTFOLYO--PORTFOLYO-- PORTFOLYO--  */
+    .header-animasyon{
+        background-color: #0a192f;
+        padding: 60px 0 0 ;
+    }
+    .header-animasyon-başlık{
+        margin: 0 60px 0 60px ;
+    }
+    .header-animasyon-h1 h1{
+        font-size: 70px ;
+        margin: 10px 0 15px ;
+    }
+    .header-animasyon-p p{
+        font-size: 12px ;
+        color: #e6f1ffb3;
+        margin: 0 0 40px ;
+    }
+    .scroll-hero-content{
+        width: 100%;
+        height: 265px ;
+        position: relative ;
+        display: flex;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-content-right{
+        width: 100%;
+        height: 165px ;
+        position: relative ;
+        padding-bottom:100px ;
+    }
+    .scroll-hero-1{
+        width: 70% ;
+        height: 265px ;
+    }
+    .scroll-hero-2{
+        width: 70% ;
+        height: 265px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-3{
+        width: 70% ;
+        height: 265px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-4{
+        width: 70% ;
+        height: 265px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-5{
+        width: 70% ;
+        height: 265px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-6{
+        width: 70% ;
+        height: 265px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-text{
+        position:absolute;
+        right: 0px;
+        display: flex;
+        width: 50% ;
+        flex-direction: column;
+        margin-top: 40px ; 
+    }
+    .scroll-title {
+        color: #64ffd9cc;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+    }
+    .scroll-altTitle {
+        font-size: 18px;
+        color: #e6f1ffe6;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0 0 10px 0 ;
+        text-align: left;
+    }
+    .scroll-text {
+        color: #a8b2d1;
+        font-size: 13px;
+        font-family: sans-serif;
+        text-align: right;
+        width: 100%;
+        line-height: 13px;
+        margin-bottom: 10px;
+    }
+    .scroll-text  {
+        margin: 5px 0;
+    }
+    .scroll-hero-text{
+        position:absolute;
+        right: 0px;
+        display: flex;
+        width: 50% ;
+        flex-direction: column;
+        margin-top: 40px ; 
+    }
+    .scroll-hero-text-right{
+        position:absolute;
+        right: 0px;
+        display: flex;
+        width: 50% ;
+        flex-direction: column;
+        margin-top: 40px ; 
+    }
+    .scroll-title-right{
+        color: #64ffd9cc;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+    }
+    .scroll-altTitle-right {
+        font-size: 18px;
+        color: #e6f1ffe6;
+        font-weight: 500;
+        margin: 0 0 0 ;
+        text-align: left;
+    }
+    .scroll-text-right {
+        color: #a8b2d1;
+        font-size: 13px;
+        font-family: sans-serif;
+        text-align: left;
+        width: 100%;
+        line-height: 13px;
+        margin-bottom: 10px;
+    }
+    .scroll-text p {
+        margin: 5px 0;
+    }
+    .scrool-cv h1 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .scrool-cv-title {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        width: 55%;
+    }
+    .scrool-cv-flex {
+        padding-bottom: 20px;
+    }
+    .scrool-cv-flex-h5 h5 {
+        font-size: 13px;
+    }
+    .scrool-cv-flex-p{
+        text-align: end;
+    }
+    .scrool-bottom {
+        padding: 70px 0 30px;
+    }
+    .scrool-bottom-2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .scrool-bottom-3 {
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        color: rgba(230, 241, 255, 0.7);
+        font-size: 15px;
+        line-height: 21px;
+        width: 75%;
+        letter-spacing: 0.8px;
+        padding-bottom: 0;
+    }
+
+}
+
+/* !WİDTH 480PX*/
+@media only screen and (max-width:480px){
+    .header-hero {
+        height:53.5vh ;
+    }
+    .header-hero-title img {
+        width: 15px ;
+        height: 15px ;
+    }
+    .header-hero-title {
+        padding-top: 30px ;
+    }
+    .header-hero-başlık ul li {
+        font-size: 10px ;
+    }    
+    .header-hero-başlık ul span {
+        margin-left: 8px ;
+        font-size: 10px ;
+    }
+    .header-hero-slogan {
+        width: 90% ;
+    }
+    .header-hero-slogan-auto h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .header-hero-slogan-bottom {
+        width: 95% !important;
+        font-size: 12px;
+    }
+    /* PORTFOLYO--PORTFOLYO-- PORTFOLYO--  */
+    .header-animasyon{
+        background-color: #0a192f;
+        padding: 60px 0 0 ;
+    }
+    .header-animasyon-başlık{
+        margin: 0 10px 0 10px ;
+    }
+    .header-animasyon-h1 h1{
+        font-size: 55px ;
+        margin: 10px 0 15px ;
+    }
+    .header-animasyon-p p{
+        font-size: 9px ;
+        color: #e6f1ffb3;
+        margin: 0 0 40px ;
+    }
+    .scroll-hero-content{
+        width: 100%;
+        height: 165px ;
+        position: relative ;
+        display: flex;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-content-right{
+        width: 100%;
+        height: 165px ;
+        position: relative ;
+        margin-bottom:100px ;
+        padding: 0px;
+    }
+    .scroll-hero-1{
+        width: 70% ;
+        height: 165px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-2{
+        width: 70% ;
+        height: 165px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-3{
+        width: 70% ;
+        height: 165px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-4{
+        width: 70% ;
+        height: 165px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-5{
+        width: 70% ;
+        height: 165px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-6{
+        width: 70% ;
+        height: 165px ;
+        margin-bottom:100px ;
+    }
+    .scroll-hero-text{
+        position:absolute;
+        right: 0px;
+        display: flex;
+        width: 50% ;
+        flex-direction: column;
+        margin-top: 20px ; 
+    }
+    .scroll-title {
+        color: #64ffd9cc;
+        font-size: 9px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-bottom: 0px;
+    }
+    .scroll-altTitle {
+        font-size: 14px;
+        color: #e6f1ffe6;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0 0 0 ;
+        text-align: left;
+    }
+    .scroll-text {
+        color: #a8b2d1;
+        font-size: 10px;
+        font-family: sans-serif;
+        text-align: right;
+        width: 100%;
+        line-height: 10px;
+    }
+    .scroll-text p {
+        margin: 5px 0;
+    }
+    .scroll-hero-text-right{
+        position:absolute;
+        right: 0px;
+        display: flex;
+        width: 50% ;
+        flex-direction: column;
+        margin-top: 20px ; 
+    }
+    .scroll-title-right{
+        color: #64ffd9cc;
+        font-size: 9px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-bottom: 0px;
+    }
+    .scroll-altTitle-right {
+        font-size: 14px;
+        color: #e6f1ffe6;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0 0 0 ;
+        text-align: left;
+    }
+    .scroll-text-right {
+        color: #a8b2d1;
+        font-size: 10px;
+        font-family: sans-serif;
+        text-align: left;
+        width: 100%;
+        line-height: 10px;
+        margin: 5px 0; 
+    }
+    .scroll-text p {
+        margin: 5px 0;
+    }
+    .scrool-cv h1 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .scrool-cv-title {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        width: 55%;
+    }
+    .scrool-cv-flex {
+        padding-bottom: 20px;
+    }
+    .scrool-cv-flex-h5 h5 {
+        font-size: 13px;
+    }
+    .scrool-cv-flex-p{
+        text-align: end;
+    }
+    .scrool-bottom {
+        padding: 70px 0 30px;
+    }
+    .scrool-bottom-2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .scrool-bottom-3 {
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        color: rgba(230, 241, 255, 0.7);
+        font-size: 15px;
+        line-height: 21px;
+        width: 75%;
+        letter-spacing: 0.8px;
+        padding-bottom: 0;
+    }
+
+}  

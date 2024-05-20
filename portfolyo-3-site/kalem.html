@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Scroll Animation</title>
+<style>
+  .scroll-container {
+    width: 100%;
+    overflow-x: hidden; /* hide scrollbar */
+    white-space: nowrap;
+    position: relative;
+  }
+  .scroll-item {
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    margin-right: 20px; /* Adjust spacing between items */
+    vertical-align: top;
+    transition: transform 0.3s ease; /* Add smooth transition */
+    will-change: transform; /* Optimize for animation */
+  }
+  .scroll-hero-content {
+    width: 100%;
+    height: 165px;
+    position: relative;
+    overflow: hidden; /* Hide overflow to prevent content spill */
+  }
+  .scroll-hero-1 {
+    width: 70%;
+    height: 165px;
+    background-color: #ccc; /* Just for demonstration */
+    float: left; /* Make it appear before the text */
+  }
+  .scroll-hero-text {
+    width: 30%;
+    height: 100%;
+    float: right; /* Make it appear after the image */
+    background-color: #eee; /* Just for demonstration */
+    position: relative;
+    transition: transform 0.5s ease; /* Smooth transition */
+  }
+  /* Remove hover effect */
+  /*.scroll-hero-content:hover .scroll-hero-text {
+    transform: translateX(-100%);
+  }*/
+  .scroll-title {
+    color: #64ffd9cc;
+    font-size: 9px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+  }
+  .scroll-altTitle {
+    font-size: 14px;
+    color: #e6f1ffe6;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    text-align: left;
+  }
+  .scroll-text {
+    color: #a8b2d1;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: right;
+    width: 100%;
+    line-height: 10px;
+  }
+  .scroll-text p {
+    margin: 5px 0;
+  }
+</style>
+</head>
+<body>
+<div class="scroll-container" id="scroll-container">
+  <div class="scroll-item">
+    <div class="scroll-hero-content">
+      <div class="scroll-hero-1"></div>
+      <div class="scroll-hero-text">
+        <div class="scroll-title"><p>User Interface</p></div>
+        <div class="scroll-altTitle"><p>mint of creativity</p></div>
+        <div class="scroll-text"><p>Duis rutrum in purus a tristique. Integer id rhoncus elit. Praesent pellentesque libero massa, non pretium urna porttitor id Curabitur nec nisl ut diam porttitor placerat Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p></div>
+        <div class="scroll-title"><p>Visit Website</p></div>
+      </div>
+    </div>
+  </div>
+  <!-- Add more scroll items as needed -->
+</div>
+
+<script>
+  // Auto scroll from left to right
+  window.addEventListener('load', function() {
+    const container = document.getElementById('scroll-container');
+    const distance = container.scrollWidth - container.clientWidth;
+    const duration = 10000; // Adjust duration as needed (milliseconds)
+    const steps = 60; // Number of steps for animation
+
+    let step = 0;
+    const scrollStep = distance / steps;
+    const interval = duration / steps;
+
+    const scrollInterval = setInterval(function() {
+      container.scrollLeft += scrollStep;
+      step++;
+
+      if (step >= steps) {
+        clearInterval(scrollInterval);
+      }
+    }, interval);
+  });
+</script>
+</body>
+</html>
